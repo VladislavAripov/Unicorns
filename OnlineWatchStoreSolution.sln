@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineWatchStore.Web", "OnlineWatchStore.Web\OnlineWatchStore.Web.csproj", "{57A954BE-F496-4C0A-924A-DFC8FBAAD682}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineWatchStore.Domain", "OnlineWatchStore.Domain\OnlineWatchStore.Domain.csproj", "{EBA14082-FEE5-446A-A919-29AA329527C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineWatchStore.Data", "OnlineWatchStore.Data\OnlineWatchStore.Data.csproj", "{EB00FF72-689F-435D-8819-038E4CC197C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{57A954BE-F496-4C0A-924A-DFC8FBAAD682}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57A954BE-F496-4C0A-924A-DFC8FBAAD682}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57A954BE-F496-4C0A-924A-DFC8FBAAD682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBA14082-FEE5-446A-A919-29AA329527C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA14082-FEE5-446A-A919-29AA329527C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA14082-FEE5-446A-A919-29AA329527C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA14082-FEE5-446A-A919-29AA329527C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB00FF72-689F-435D-8819-038E4CC197C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB00FF72-689F-435D-8819-038E4CC197C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB00FF72-689F-435D-8819-038E4CC197C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB00FF72-689F-435D-8819-038E4CC197C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

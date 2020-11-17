@@ -4,4 +4,9 @@
         <TargetFramework>netcoreapp3.1</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\OnlineWatchStore.Data\OnlineWatchStore.Data.csproj" />
+      <ProjectReference Include="..\OnlineWatchStore.Domain\OnlineWatchStore.Domain.csproj" />
+    </ItemGroup>
+
 </Project>
