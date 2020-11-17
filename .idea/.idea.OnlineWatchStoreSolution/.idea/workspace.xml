@@ -13,11 +13,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6263d842-919b-472a-a01f-bf55c35557bc" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/OnlineWatchStore.Domain/Category.cs" afterDir="false" />
+    <list default="true" id="6263d842-919b-472a-a01f-bf55c35557bc" name="Default Changelist" comment="Added projects Data and Domain in solution">
+      <change afterPath="$PROJECT_DIR$/OnlineWatchStore.Web/Controllers/Products.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OnlineWatchStoreSolution/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OnlineWatchStoreSolution/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OnlineWatchStoreSolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OnlineWatchStoreSolution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStoreSolution.sln" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStoreSolution.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,7 @@
         <option value="$PROJECT_DIR$/OnlineWatchStore.Domain/Product.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.Domain/Generic.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.Data/Class1.cs" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.Web/Controllers/Products.cs" />
       </list>
     </option>
   </component>
@@ -91,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605562322574</updated>
-      <workItem from="1605562335209" duration="2630000" />
+      <workItem from="1605562335209" duration="3442000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1605562441622</created>
@@ -100,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605562441622</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added projects Data and Domain in solution">
+      <created>1605602152645</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605602152645</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +129,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Added projects Data and Domain in solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added projects Data and Domain in solution" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="164" key="Rider.ProjectTemplateDialog.Size" timestamp="1605601556810">
@@ -133,5 +141,13 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="479" y="110" key="RiderGenerateDialog/0.0.1536.864@0.0.1536.864" timestamp="1605563092514" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1605602184542">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1605602184542" />
+    <state x="431" y="181" key="search.everywhere.popup" timestamp="1605602528212">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1605602528212" />
   </component>
 </project>
