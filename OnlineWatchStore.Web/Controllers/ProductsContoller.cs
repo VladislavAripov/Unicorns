@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using OnlineWatchStore.Data;
@@ -14,32 +11,23 @@ namespace OnlineWatchStore.Web.Controllers
     public class ProductsController : Controller
     {
         private readonly ILogger<ProductsController> _logger;
+        private readonly MyAppContext _context;
 
-        public ProductsController(ILogger<ProductsController> logger)
+        public ProductsController(ILogger<ProductsController> logger, MyAppContext context)
         {
             _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
         {
-            using (var context = new MyAppContext())
-            {
-                var product2 = context.Products.Find(1);
-            }
+            var products = _context.Products.ToList();
             
-            var category = new Category(0, "Casual watch");
-            var product = new Product(0, "Product's name", "The product's description", 1500, 20,
-                "Url to the product's image");
-
-            category.Products.Add(product);
-
-            //Add Products in Views
-            return View();
+            return View(products);
         }
 
         public IActionResult Privacy()
         {
-            //Add Products in Views
             return View("");
         }
 

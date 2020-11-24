@@ -1,10 +1,12 @@
-﻿using System.Collections.Generic;
-
-namespace OnlineWatchStore.Domain
+﻿namespace OnlineWatchStore.Domain
 {
     public class Category
     {
-        private Category()
+        public int Id { get; protected set; }
+        
+        public string Name { get; protected set; }
+
+        protected Category()
         {
         }
 
@@ -13,11 +15,5 @@ namespace OnlineWatchStore.Domain
             Id = id;
             Name = name;
         }
-
-        public int Id { get; protected set; }
-        
-        public string Name { get; protected set; }
-        
-        public IList<Product> Products { get; set; } = new List<Product>();
     }
 }

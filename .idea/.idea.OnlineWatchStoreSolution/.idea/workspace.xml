@@ -13,10 +13,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6263d842-919b-472a-a01f-bf55c35557bc" name="Default Changelist" comment="Added projects Data and Domain in solution">
-      <change afterPath="$PROJECT_DIR$/OnlineWatchStore.Web/Controllers/Products.cs" afterDir="false" />
+    <list default="true" id="6263d842-919b-472a-a01f-bf55c35557bc" name="Default Changelist" comment="Added Products controller">
+      <change afterPath="$PROJECT_DIR$/OnlineWatchStore.Web/Views/Products/_ProductCard.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OnlineWatchStoreSolution/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OnlineWatchStoreSolution/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OnlineWatchStoreSolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OnlineWatchStoreSolution/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.Domain/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.Domain/Category.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.Web/Controllers/Products.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.Web/Controllers/ProductsContoller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.Web/OnlineWatchStore.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.Web/OnlineWatchStore.Web.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.Web/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.Web/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.Web/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.Web/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,17 +31,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/OnlineWatchStore.Web/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OnlineWatchStore.Web/Views/Products/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OnlineWatchStore.Web/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OnlineWatchStore.Web/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OnlineWatchStore.Web/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/OnlineWatchStore.Domain/Class1.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.Domain/Student.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.Domain/Order.cs" />
-        <option value="$PROJECT_DIR$/OnlineWatchStore.Domain/Category.cs" />
-        <option value="$PROJECT_DIR$/OnlineWatchStore.Domain/Product.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.Domain/Generic.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.Data/Class1.cs" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.Web/Startup.cs" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.Web/appsettings.json" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.Web/Controllers/Products.cs" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.Web/Views/Products/_ProductCard.cshtml" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.Domain/Product.cs" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.Domain/Category.cs" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.Data/MyAppContext.cs" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.Web/Views/Products/Index.cshtml" />
       </list>
     </option>
   </component>
@@ -92,6 +109,8 @@
       <option name="presentableId" value="Default" />
       <updated>1605562322574</updated>
       <workItem from="1605562335209" duration="3442000" />
+      <workItem from="1606209602251" duration="628000" />
+      <workItem from="1606210264940" duration="5170000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1605562441622</created>
@@ -113,7 +132,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -125,6 +144,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -133,6 +153,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added projects Data and Domain in solution" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1606215044316">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606215044316" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1606215044316">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606215044316" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1606215044316">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606215044316" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1606215044316">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606215044316" />
     <state x="361" y="164" key="Rider.ProjectTemplateDialog.Size" timestamp="1605601556810">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
