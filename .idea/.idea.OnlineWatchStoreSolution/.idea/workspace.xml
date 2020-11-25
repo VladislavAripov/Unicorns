@@ -13,14 +13,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6263d842-919b-472a-a01f-bf55c35557bc" name="Default Changelist" comment="Added Products controller">
-      <change afterPath="$PROJECT_DIR$/OnlineWatchStore.Web/Views/Products/_ProductCard.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.OnlineWatchStoreSolution/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OnlineWatchStoreSolution/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="6263d842-919b-472a-a01f-bf55c35557bc" name="Default Changelist" comment="Added migrations and views">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OnlineWatchStoreSolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OnlineWatchStoreSolution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.Domain/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.Domain/Category.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.Web/Controllers/Products.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.Web/Controllers/ProductsContoller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.Web/OnlineWatchStore.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.Web/OnlineWatchStore.Web.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.Web/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.Web/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineWatchStore.Web/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.Web/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +26,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/A00560A4-02F1-4292-9257-D2BADD7D70DD/57/5faab130/System.Data.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OnlineWatchStore.Web/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OnlineWatchStore.Web/Views/Products/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OnlineWatchStore.Web/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
@@ -47,13 +42,14 @@
         <option value="$PROJECT_DIR$/OnlineWatchStore.Domain/Generic.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.Data/Class1.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.Web/Startup.cs" />
-        <option value="$PROJECT_DIR$/OnlineWatchStore.Web/appsettings.json" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.Web/Controllers/Products.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.Web/Views/Products/_ProductCard.cshtml" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.Domain/Product.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.Domain/Category.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.Data/MyAppContext.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.Web/Views/Products/Index.cshtml" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.Web/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.Web/appsettings.json" />
       </list>
     </option>
   </component>
@@ -110,7 +106,10 @@
       <updated>1605562322574</updated>
       <workItem from="1605562335209" duration="3442000" />
       <workItem from="1606209602251" duration="628000" />
-      <workItem from="1606210264940" duration="5170000" />
+      <workItem from="1606210264940" duration="6359000" />
+      <workItem from="1606219237388" duration="797000" />
+      <workItem from="1606308048904" duration="2237000" />
+      <workItem from="1606315816915" duration="1028000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1605562441622</created>
@@ -126,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605602152645</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added migrations and views">
+      <created>1606216354729</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606216354729</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,25 +156,26 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added projects Data and Domain in solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added projects Data and Domain in solution" />
+    <MESSAGE value="Added migrations and views" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added migrations and views" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1606215044316">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1606217509916">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606215044316" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1606215044316">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606217509916" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1606217509916">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606215044316" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1606215044316">
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606217509916" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1606217509916">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606215044316" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1606215044316">
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606217509916" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1606217509916">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606215044316" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606217509916" />
     <state x="361" y="164" key="Rider.ProjectTemplateDialog.Size" timestamp="1605601556810">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -177,10 +184,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="479" y="110" key="RiderGenerateDialog/0.0.1536.864@0.0.1536.864" timestamp="1605563092514" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1605602184542">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1606216366087">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1605602184542" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1606216366087" />
     <state x="431" y="181" key="search.everywhere.popup" timestamp="1605602528212">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
