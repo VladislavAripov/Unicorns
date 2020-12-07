@@ -1,0 +1,16 @@
+﻿@model List<Product>
+
+@using OnlineWatchStore.Domain
+
+@{
+    ViewData["Title"] = "Каталог";
+}
+
+<div class="text-center">
+    <h1 class="display-4">@ViewData["Title"]</h1>
+</div>
+
+@foreach (var product in Model)
+{
+    Html.RenderPartial("_ProductCard", product);
+}

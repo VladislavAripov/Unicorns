@@ -1,0 +1,12 @@
+﻿@model OnlineWatchStore.Domain.Product
+
+<div>
+    <p>Product ID: @Model.Id</p>
+    <p>Product Category: @Model.Category</p>
+    <p>Product Description: @Model.Description</p>
+    <p>Product Price Rub: @Model.PriceRub</p>
+    <p>Product Price Usd: @Model.PriceUsd</p>
+    
+    <p>Product Image: </p>
+    <img src = @Model.ImageUrl alt = @Model.Name />
+</div>
