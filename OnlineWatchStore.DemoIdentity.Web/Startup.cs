@@ -33,7 +33,7 @@ namespace OnlineWatchStore.DemoIdentity.Web
             services.AddDbContext<ApplicationDbContext>(options => 
                 options.UseSqlite(Configuration.GetConnectionString("UsersDataConnection")));
             services.AddDbContext<MyAppContext>(options => 
-                options.UseSqlServer(Configuration.GetConnectionString("ProductsDataConnection")));
+                options.UseSqlite(Configuration.GetConnectionString("ProductsDataConnection")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();

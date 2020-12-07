@@ -57,6 +57,7 @@
           </e>
         </e>
         <e p="OnlineWatchStore.DemoIdentity.Web.csproj" t="IncludeRecursive" />
+        <e p="OnlineWatchStoreDataDb" t="Include" />
         <e p="OnlineWatchStoreUsersDb" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">

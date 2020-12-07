@@ -17,31 +17,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6263d842-919b-472a-a01f-bf55c35557bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Controllers/ProductsContoller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Data/ApplicationDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Data/Migrations/00000000000000_CreateIdentitySchema.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Data/Migrations/00000000000000_CreateIdentitySchema.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Data/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/OnlineWatchStoreUsersDb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Products/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Products/_ProductCard.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/images/Demo_Casual_Watch.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/images/Demo_Classic_Watch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/images/Demo_Sport_Watch.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineWatchStore.Users.Data/ApplicationDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineWatchStore.Users.Data/Migrations/00000000000000_CreateIdentitySchema.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineWatchStore.Users.Data/Migrations/00000000000000_CreateIdentitySchema.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineWatchStore.Users.Data/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineWatchStore.Users.Data/app.db" afterDir="false" />
+    <list default="true" id="6263d842-919b-472a-a01f-bf55c35557bc" name="Default Changelist" comment="Microsoft identity added">
+      <change afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/OnlineWatchStoreDataDb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OnlineWatchStoreSolution/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OnlineWatchStoreSolution/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OnlineWatchStoreSolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OnlineWatchStoreSolution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/OnlineWatchStoreSolution/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/OnlineWatchStoreSolution/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.Web/OnlineWatchStore.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.Web/OnlineWatchStore.Web.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.Web/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.Web/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.Web/Views/Products/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.Web/Views/Products/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.Web/Views/Products/_ProductCard.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.Web/Views/Products/_ProductCard.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStoreSolution.sln" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStoreSolution.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,24 +31,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/A00560A4-02F1-4292-9257-D2BADD7D70DD/57/5faab130/System.Data.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/OnlineWatchStore.Web/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/OnlineWatchStore.Web/Views/Products/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/OnlineWatchStore.Web/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/OnlineWatchStore.Web/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/OnlineWatchStore.Users.Data/ApplicationDbContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Data/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApplication/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Products/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/OnlineWatchStore.Users.Data/Migrations/ApplicationDbContextModelSnapshot.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApplication/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApplication/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/558EFF1A-6D86-468A-B5D3-8B990CD1FB1A/C/Controller.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApplication/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/OnlineWatchStore.Web/Startup.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Data/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Products/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/appsettings.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -104,10 +75,10 @@
         <option value="$PROJECT_DIR$/OnlineWatchStore.Users.Data/Migrations/00000000000000_CreateIdentitySchema.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Data/MyApplicationDbContext.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/OnlineWatchStore.DemoIdentity.Web.csproj" />
-        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/appsettings.json" />
-        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Startup.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Data/ApplicationDbContext.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Data/Migrations/00000000000000_CreateIdentitySchema.cs" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Startup.cs" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/appsettings.json" />
       </list>
     </option>
   </component>
@@ -299,6 +270,8 @@
       <workItem from="1607331530707" duration="3759000" />
       <workItem from="1607368435096" duration="3277000" />
       <workItem from="1607372143434" duration="615000" />
+      <workItem from="1607372857218" duration="469000" />
+      <workItem from="1607373793540" duration="1294000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1605562441622</created>
@@ -328,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606317088415</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Microsoft identity added">
+      <created>1607373084321</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607373084321</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +334,8 @@
     <MESSAGE value="Added projects Data and Domain in solution" />
     <MESSAGE value="Added migrations and views" />
     <MESSAGE value="Added database sql server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added database sql server" />
+    <MESSAGE value="Microsoft identity added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Microsoft identity added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607371201884">
@@ -369,22 +350,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="492" y="277" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.1536.864@0.0.1536.864" timestamp="1607295717550" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1607372761199">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1607373328738">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1607372761199" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1607372761199">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1607373328738" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1607373328738">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1607372761199" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1607372761199">
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1607373328738" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1607373328738">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1607372761199" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1607372761199">
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1607373328738" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1607373328738">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1607372761199" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1607373328738" />
     <state x="361" y="164" key="Rider.ProjectTemplateDialog.Size" timestamp="1607332338621">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -393,10 +374,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="479" y="110" key="RiderGenerateDialog/0.0.1536.864@0.0.1536.864" timestamp="1605563092514" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1606317122898">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1607373095081">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1606317122898" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1607373095081" />
+    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607373190673">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1607373190673" />
     <state x="431" y="181" key="search.everywhere.popup" timestamp="1605602528212">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
