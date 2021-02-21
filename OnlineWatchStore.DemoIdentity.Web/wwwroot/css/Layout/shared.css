@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: sans-serif;
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    padding-bottom: 60px;
+}
+
+.content {
+    padding-top: 60px;
+}
+
+.pretty-text {
+    color: rgb(254, 255, 196);
+}
+
+.white-hover-text:hover {
+    color: white;
+}
+
+.large-text {
+    font-size: 32px;
+    padding-top: 11.6px;
+}
+
+.normal-text {
+    font-size: 24px;
+    padding-top: 16.4px;
+}
+
+.small-text {
+    font-size: 18px;
+    padding-top: 19.6px;
+}
+
+.inline-block {
+    display: inline-block;
+}

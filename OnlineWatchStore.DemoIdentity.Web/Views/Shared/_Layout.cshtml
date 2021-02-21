@@ -1,52 +1,57 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>@ViewData["Title"] - OnlineWatchStore.DemoIdentity.Web</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="~/css/site.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/Layout/shared.css">
+    <link rel="stylesheet" href="~/css/Layout/header.css">
+    <link rel="stylesheet" href="~/css/Layout/icons.css">
+    <link rel="stylesheet" href="~/css/Layout/footer.css">
+    <title>WatchSore - @ViewData["Title"]</title>
+    <link rel="icon" href="~/favicon.ico" type="image/x-icon">
+    <title>Document</title>
 </head>
 <body>
-<header>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-        <div class="container">
-            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">OnlineWatchStore.DemoIdentity.Web</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                <partial name="_LoginPartial"/>
-                <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Products" asp-action="Index">Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                    </li>
-                </ul>
+    <div class="wrapper">
+        <header class="navbar">
+            <div class="navbar-item company-name">
+                <a class="inline-block link-without-decoration pretty-text white-hover-text large-text" href="#">WatchStore</a>
             </div>
-        </div>
-    </nav>
-</header>
-<div class="container">
-    <main role="main" class="pb-3">
-        @RenderBody()
-    </main>
-</div>
+            <div class="align-center">
+                <div class="navbar-item">
+                    <a class="inline-block link-without-decoration pretty-text normal-text white-hover-text" href="#">Главная</a>
+                </div>
+                <div class="navbar-item">
+                    <a class="inline-block link-without-decoration pretty-text normal-text white-hover-text" href="#">Коллекции</a>
+                </div>
+                <div class="navbar-item">
+                    <a class="inline-block link-without-decoration pretty-text normal-text white-hover-text" href="#">О нас</a>
+                </div>
+            </div>
+            <div class="navbar-item basket-login-logout">
+                <a id="basketIcon" class="icon" style="background-image: url(images/Layout/basket_ultra.ico);" href="#">
+                </a><a id="userIcon" class="icon" style="background-image: url(images/Layout/user_ultra.ico);" href="#">
+                </a>
+            </div>
+        </header>
 
-<footer class="border-top footer text-muted">
-    <div class="container">
-        &copy; 2020 - OnlineWatchStore.DemoIdentity.Web - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        <div class="content">
+            @RenderBody()
+        </div>
     </div>
-</footer>
-<script src="~/lib/jquery/dist/jquery.min.js"></script>
-<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="~/js/site.js" asp-append-version="true"></script>
-@RenderSection("Scripts", required: false)
+    <div class="footer">
+        <div class="contact-data-wrapper">
+            <div class="pretty-text small-text inline-block">Телефон: 8-(123)-456-78-90</div>
+            <div class="pretty-text small-text inline-block margin-horizontal-auto">Эл адрес: example@example.com</div>
+            <div class="pretty-text small-text inline-block">Адрес: Ул Какая-то, д 1</div>
+        </div>
+        <div class="social-networks-icons-wrapper">
+            <a id="vkIcon" class="icon" style="background-image: url(images/Layout/vk_ultra.ico);" href="#"></a>
+            <a id="facebookIcon" class="icon" style="background-image: url(images/Layout/facebook_ultra.ico);" href="#"></a>
+            <a id="instagramIcon" class="icon" style="background-image: url(images/Layout/instagram_ultra.ico);" href='#'></a>
+        </div>
+    </div>
+    <script src="~/js/Layout/icons.js"></script>
 </body>
 </html>

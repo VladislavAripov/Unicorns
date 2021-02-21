@@ -1,0 +1,32 @@
+.footer {
+    margin-top: -60px;
+    width: 100%;
+    height: 59px;
+    border-top: 1px solid rgb(254, 255, 196);
+    background-color: rgb(80, 71, 71);
+}
+
+.contact-data-wrapper {
+    padding-left: 20px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+
+.social-networks-icons-wrapper {
+    display: flex;
+    justify-content: right;
+    padding-right: 20px;
+}
+
+.social-networks-icons-wrapper .icon {
+    margin-right: 20px;
+}
+.social-networks-icons-wrapper .icon:last-child {
+    margin-right: 0;
+}
+
+.margin-horizontal-auto {
+    margin: 0 auto;
+}

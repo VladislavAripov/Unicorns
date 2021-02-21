@@ -1,0 +1,8 @@
+.icon {
+    display: inline-block;
+    background-repeat: round;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 14px;
+}

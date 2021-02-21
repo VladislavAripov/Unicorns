@@ -1,0 +1,100 @@
+.products_carousel {
+    width: 100%;
+    min-height: 300px;
+    background-image: linear-gradient(top, black, rgb(14, 14, 14) 50%, black);
+    background-image: -webkit-linear-gradient(top, black, rgb(14, 14, 14) 50%, black);
+    background-image: -moz-linear-gradient(top, black, rgb(14, 14, 14) 50%, black);
+    background-image: -o-linear-gradient(top, black, rgb(14, 14, 14) 50%, black);
+}
+
+div.collection_wrapper {
+    padding-top: 10px;
+}
+
+div.collection_wrapper:last-child {
+    padding-bottom: 10px;
+}
+
+div.collection_name {
+    padding-left: 25px;
+    padding-bottom: 10px;
+    color: rgb(254, 255, 196);
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+div.collection_list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+div.collection_list .card {
+    flex: 0 0 auto;
+}
+
+div.collection_list_item_wrapper {
+    padding-left: 15px;
+    display: inline-block;
+}
+
+div.collection_list_item_wrapper:last-child {
+    padding-right: 15px;
+}
+
+div.collection_list_item {
+    border: 1px gray solid;
+    background-color: honeydew;
+    border-radius: 5px;
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-attachment: local;
+}
+
+div.collection_list_item div.product_image {
+    background-attachment: local;
+    background-repeat: round;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 90%;
+    height: 70%;
+    background-color: gray;
+    transition: ease;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+div.collection_list_item div.product_image:hover {
+    margin-left: 0px;
+    border-radius: 0px;
+    width: 100%;
+}
+
+div.collection_list_item a.product_name {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 0px;
+    font-size: 20px;
+    margin-left: 5%;
+    width: 90%;
+    height: 20px;
+    color: rgb(70, 67, 67);
+    text-align: center;
+    transition: ease;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+div.collection_list_item a.product_name:hover {
+    background-color: rgb(187, 187, 187);
+    color: rgb(49, 49, 49);
+    text-decoration: underline rgb(117, 5, 5) 2px;
+}
+
+div.product_price {
+    text-align: center;
+    color: #777;
+    width: 100%;
+}
