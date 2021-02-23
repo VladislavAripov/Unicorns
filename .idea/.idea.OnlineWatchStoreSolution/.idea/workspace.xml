@@ -17,7 +17,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6263d842-919b-472a-a01f-bf55c35557bc" name="Default Changelist" comment="" />
+    <list default="true" id="6263d842-919b-472a-a01f-bf55c35557bc" name="Default Changelist" comment="Layout, HomePage changed">
+      <change beforePath="$PROJECT_DIR$/.idea/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,10 +32,11 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/A00560A4-02F1-4292-9257-D2BADD7D70DD/57/5faab130/System.Data.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/558EFF1A-6D86-468A-B5D3-8B990CD1FB1A/C/Controller.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Data/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/vlada/Desktop/Проект интернет-магазина часов/Rider/Рабочие проекты/OnlineWatchStoreSolution/OnlineWatchStore.DemoIdentity.Web/Data/Migrations/00000000000000_CreateIdentitySchema.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Data/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Products/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/appsettings.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -283,6 +286,7 @@
       <workItem from="1613833996524" duration="1129000" />
       <workItem from="1613844390138" duration="6163000" />
       <workItem from="1613919590484" duration="2128000" />
+      <workItem from="1613922750283" duration="332000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1605562441622</created>
@@ -319,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607373084321</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Layout, HomePage changed">
+      <created>1613922925799</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613922925799</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +357,8 @@
     <MESSAGE value="Added migrations and views" />
     <MESSAGE value="Added database sql server" />
     <MESSAGE value="Microsoft identity added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Microsoft identity added" />
+    <MESSAGE value="Layout, HomePage changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Layout, HomePage changed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607371201884">
@@ -361,22 +373,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="492" y="277" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.1536.864@0.0.1536.864" timestamp="1607295717550" />
-    <state width="1493" height="95" key="GridCell.Tab.0.bottom" timestamp="1613922689264">
+    <state width="1493" height="95" key="GridCell.Tab.0.bottom" timestamp="1613923085460">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="95" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1613922689264" />
-    <state width="1493" height="95" key="GridCell.Tab.0.center" timestamp="1613922689264">
+    <state width="1493" height="95" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1613923085460" />
+    <state width="1493" height="95" key="GridCell.Tab.0.center" timestamp="1613923085460">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="95" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1613922689264" />
-    <state width="1493" height="95" key="GridCell.Tab.0.left" timestamp="1613922689264">
+    <state width="1493" height="95" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1613923085460" />
+    <state width="1493" height="95" key="GridCell.Tab.0.left" timestamp="1613923085460">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="95" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1613922689264" />
-    <state width="1493" height="95" key="GridCell.Tab.0.right" timestamp="1613922689264">
+    <state width="1493" height="95" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1613923085460" />
+    <state width="1493" height="95" key="GridCell.Tab.0.right" timestamp="1613923085460">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="95" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1613922689264" />
+    <state width="1493" height="95" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1613923085460" />
     <state x="361" y="164" key="Rider.ProjectTemplateDialog.Size" timestamp="1607332338621">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -389,10 +401,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1613844679144" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1607373095081">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1613923007855">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1607373095081" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1613923007855" />
     <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607373190673">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

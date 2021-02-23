@@ -19,16 +19,11 @@ namespace OnlineWatchStore.DemoIdentity.Web.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(string productName)
         {
-            var products = _context.Products.ToList();
-            
-            return View(products);
-        }
+            var product = _context.Products.FirstOrDefault(p => p.Name == productName);
 
-        public IActionResult Privacy()
-        {
-            return View("");
+            return View(product);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

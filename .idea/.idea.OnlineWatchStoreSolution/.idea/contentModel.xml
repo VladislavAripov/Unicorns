@@ -69,9 +69,9 @@
           <e p="_ViewStart.cshtml" t="Include" />
           <e p="Home" t="Include">
             <e p="Index.cshtml" t="Include" />
-            <e p="Privacy.cshtml" t="Include" />
           </e>
           <e p="Products" t="Include">
+            <e p="_EmptyProductCard.cshtml" t="Include" />
             <e p="_ProductCard.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
           </e>
@@ -94,6 +94,10 @@
               <e p="header.css" t="Include" />
               <e p="icons.css" t="Include" />
               <e p="shared.css" t="Include" />
+            </e>
+            <e p="ProductPage" t="Include">
+              <e p="imagesStyle.css" t="Include" />
+              <e p="product.css" t="Include" />
             </e>
           </e>
           <e p="favicon.ico" t="Include" />
@@ -126,6 +130,13 @@
             <e p="Layout" t="Include">
               <e p="icons.js" t="Include" />
             </e>
+            <e p="ProductPage" t="Include">
+              <e p="blockInfo.js" t="Include" />
+              <e p="images.js" t="Include" />
+            </e>
+          </e>
+          <e p="lib" t="Include">
+            <e p="jquery-latest.js" t="Include" />
           </e>
         </e>
       </e>

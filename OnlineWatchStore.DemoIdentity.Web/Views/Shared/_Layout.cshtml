@@ -8,26 +8,42 @@
     <link rel="stylesheet" href="~/css/Layout/header.css">
     <link rel="stylesheet" href="~/css/Layout/icons.css">
     <link rel="stylesheet" href="~/css/Layout/footer.css">
+    
     <title>WatchSore - @ViewData["Title"]</title>
+
     <link rel="icon" href="~/favicon.ico" type="image/x-icon">
+    <script src="~/lib/jquery-latest.js" type="text/javascript"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="wrapper">
         <header class="navbar">
             <div class="navbar-item company-name">
-                <a class="inline-block link-without-decoration pretty-text white-hover-text large-text" href="#">WatchStore</a>
+                <a class="inline-block link-without-decoration pretty-text white-hover-text large-text" asp-area="" asp-controller="Home" asp-action="Index">WatchStore</a>
             </div>
             <div class="align-center">
-                <div class="navbar-item">
-                    <a class="inline-block link-without-decoration pretty-text normal-text white-hover-text" href="#">Главная</a>
-                </div>
-                <div class="navbar-item">
-                    <a class="inline-block link-without-decoration pretty-text normal-text white-hover-text" href="#">Коллекции</a>
-                </div>
-                <div class="navbar-item">
-                    <a class="inline-block link-without-decoration pretty-text normal-text white-hover-text" href="#">О нас</a>
-                </div>
+                @{
+                    // Const home page name. Nav bar checks name of page in @RenderBody() and choose
+                    // nav bar's link to the sections on the home page (#id/asp-action="id").
+                    const string homePageName = "Home Page";
+
+                    if ((string) ViewData["Title"] == homePageName)
+                    {
+                        <div class="navbar-item">
+                            <a class="scrollto inline-block link-without-decoration pretty-text normal-text white-hover-text" href="#banner">Главная</a>
+                        </div>
+                        <div class="navbar-item">
+                            <a class="scrollto inline-block link-without-decoration pretty-text normal-text white-hover-text" href="#products_collections">Коллекции</a>
+                        </div>
+                        <div class="navbar-item">
+                            <a class="scrollto inline-block link-without-decoration pretty-text normal-text white-hover-text" href="#about">О нас</a>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="inline-block pretty-text normal-text">@ViewData["Title"]</div>
+                    }
+                }
             </div>
             <div class="navbar-item basket-login-logout">
                 <a id="basketIcon" class="icon" style="background-image: url(images/Layout/basket_ultra.ico);" href="#">
@@ -47,11 +63,22 @@
             <div class="pretty-text small-text inline-block">Адрес: Ул Какая-то, д 1</div>
         </div>
         <div class="social-networks-icons-wrapper">
-            <a id="vkIcon" class="icon" style="background-image: url(images/Layout/vk_ultra.ico);" href="#"></a>
-            <a id="facebookIcon" class="icon" style="background-image: url(images/Layout/facebook_ultra.ico);" href="#"></a>
-            <a id="instagramIcon" class="icon" style="background-image: url(images/Layout/instagram_ultra.ico);" href='#'></a>
+            <a id="vkIcon" class="icon" style="background-image: url(images/Layout/vk_ultra.ico);" href="https://vk.com/id0"></a>
+            <a id="facebookIcon" class="icon" style="background-image: url(images/Layout/facebook_ultra.ico);" href="https://ru-ru.facebook.com/"></a>
+            <a id="instagramIcon" class="icon" style="background-image: url(images/Layout/instagram_ultra.ico);" href="https://www.instagram.com/"></a>
         </div>
     </div>
-    <script src="~/js/Layout/icons.js"></script>
+<script src="~/js/Layout/icons.js"></script>
+<!-- Плавная прокрутка до якорей -->
+<script>
+jQuery(document).ready(function() {
+jQuery("a.scrollto").click(function () {
+elementClick = jQuery(this).attr("href")
+destination = jQuery(elementClick).offset().top - 60;
+jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 1000);
+return false;
+});
+});
+</script>
 </body>
 </html>

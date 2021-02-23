@@ -1,16 +1,17 @@
-﻿@model List<Product>
+﻿@model Product
 
 @using OnlineWatchStore.Domain
 
+
 @{
-    ViewData["Title"] = "Каталог";
-}
-
-<div class="text-center">
-    <h1 class="display-4">@ViewData["Title"]</h1>
-</div>
-
-@foreach (var product in Model)
-{
-    Html.RenderPartial("_ProductCard", product);
+    if (Model == null)
+    {
+        ViewData["Title"] = "EmptyProductCard";
+        await Html.RenderPartialAsync("_EmptyProductCard");
+    }
+    else
+    {
+        ViewData["Title"] = Model.Name;
+        await Html.RenderPartialAsync("_ProductCard", Model);
+    }
 }
