@@ -10,7 +10,7 @@ var banner_img = document.getElementById('banner_img');
 console.log(banner_img);
 
 banner_li_1.onmouseover = function(e) {
-  banner_img.style.backgroundImage = 'url(images/HomePage/panerai-limonor-marina-1950-3days-automatic-dial-1000x600.jpg)';
+  banner_img.style.backgroundImage = 'url(/images/HomePage/panerai-limonor-marina-1950-3days-automatic-dial-1000x600.jpg)';
   banner_li_1.style.backgroundColor = selectedColor;
   banner_li_2.style.backgroundColor = defaultColor;
   banner_li_3.style.backgroundColor = defaultColor;

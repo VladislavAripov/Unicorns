@@ -47,47 +47,38 @@ div.collection_list_item {
     background-color: honeydew;
     border-radius: 5px;
     display: inline-block;
-    height: 250px;
-    width: 200px;
+    height: 270px;
+    width: 220px;
     background-attachment: local;
 }
 
-div.collection_list_item div.product_image {
+div.product_image {
     background-attachment: local;
     background-repeat: round;
     border-radius: 5px;
-    margin-left: 5%;
-    margin-top: 3%;
-    width: 90%;
-    height: 70%;
+    width: 200px;
+    height: 200px;
     background-color: gray;
     transition: ease;
     transition-property: all;
     transition-duration: 2s;
 }
 
-div.collection_list_item div.product_image:hover {
-    margin-left: 0px;
-    border-radius: 0px;
+a.product_name {
     width: 100%;
-}
-
-div.collection_list_item a.product_name {
-    text-decoration: none;
-    display: inline-block;
-    padding: 5px 0px;
-    font-size: 20px;
-    margin-left: 5%;
-    width: 90%;
-    height: 20px;
-    color: rgb(70, 67, 67);
     text-align: center;
+    height: auto;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    padding: 4px 10px;
+    color: rgb(70, 67, 67);
     transition: ease;
     transition-property: all;
     transition-duration: 1s;
 }
 
-div.collection_list_item a.product_name:hover {
+a.product_name:hover {
     background-color: rgb(187, 187, 187);
     color: rgb(49, 49, 49);
     text-decoration: underline rgb(117, 5, 5) 2px;
@@ -97,4 +88,12 @@ div.product_price {
     text-align: center;
     color: #777;
     width: 100%;
+}
+
+div.product_price:first-child {
+    padding-top: 4px;
+}
+
+div.product_price:last-child {
+    padding-bottom: 3px;
 }

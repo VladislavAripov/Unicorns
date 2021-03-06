@@ -17,29 +17,63 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6263d842-919b-472a-a01f-bf55c35557bc" name="Default Changelist" comment="" />
+    <list default="true" id="6263d842-919b-472a-a01f-bf55c35557bc" name="Default Changelist" comment="Product page added, Home and Product controllers changed">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OnlineWatchStoreSolution/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OnlineWatchStoreSolution/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OnlineWatchStoreSolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OnlineWatchStoreSolution/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Controllers/ProductsContoller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Controllers/ProductsContoller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/OnlineWatchStore.DemoIdentity.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/OnlineWatchStore.DemoIdentity.Web.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/OnlineWatchStoreDataDb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/OnlineWatchStoreUsersDb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Products/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Products/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Products/_ProductCard.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Products/_ProductCard.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/HomePage/about_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/HomePage/about_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/HomePage/banner_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/HomePage/banner_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/HomePage/products_carousel_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/HomePage/products_carousel_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/icons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/shared.css" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/shared.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/js/HomePage/banner_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/js/HomePage/banner_script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/js/HomePage/collection_carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/js/HomePage/collection_carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/js/Layout/icons.js" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/js/Layout/icons.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/A00560A4-02F1-4292-9257-D2BADD7D70DD/57/5faab130/System.Data.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/558EFF1A-6D86-468A-B5D3-8B990CD1FB1A/C/Controller.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Products/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Data/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/558EFF1A-6D86-468A-B5D3-8B990CD1FB1A/C/Controller.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Products/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/vlada/Desktop/Разделение гита/Unicorns-main/OnlineWatchStore.DemoIdentity.Web/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/vlada/Desktop/Разделение гита/Unicorns-main/OnlineWatchStore.DemoIdentity.Web/Controllers/ProductsContoller.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/vlada/Desktop/Разделение гита/Unicorns-main/OnlineWatchStore.DemoIdentity.Web/Views/Products/_ProductCard.cshtml" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/A00560A4-02F1-4292-9257-D2BADD7D70DD/57/5faab130/System.Data.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/vlada/Desktop/Разделение гита/Unicorns-main/OnlineWatchStore.DemoIdentity.Web/Views/Products/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/OnlineWatchStore.Domain/Class1.cs" />
-        <option value="$PROJECT_DIR$/OnlineWatchStore.Domain/Student.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.Domain/Order.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.Domain/Generic.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.Data/Class1.cs" />
@@ -59,7 +93,6 @@
         <option value="$PROJECT_DIR$/WebApplication.DemoIdentity.Web/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/WebApplication.DemoIdentity.Web/Controllers/ProductsContoller.cs" />
         <option value="$PROJECT_DIR$/WebApplication.DemoIdentity.Web/Startup.cs" />
-        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Controllers/ProductsContoller.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.Users.Data/ApplicationDbContext.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.Users.Data/MyApplicationDbContext.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.Users.Data/Migrations/00000000000000_CreateIdentitySchema.Designer.cs" />
@@ -68,19 +101,30 @@
         <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Data/MyApplicationDbContext.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Data/ApplicationDbContext.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Data/Migrations/00000000000000_CreateIdentitySchema.cs" />
-        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/appsettings.json" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/OnlineWatchStore.DemoIdentity.Web.csproj" />
-        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/site.css" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/_Layout.css" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Startup.cs" />
-        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/icons.css" />
-        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/js/Layout/icons.js" />
-        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Shared/_Layout.cshtml" />
-        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/js/HomePage/banner_script.js" />
-        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/shared.css" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/HomePage/about_style.css" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/footer.css" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/js/HomePage/banner_script.js" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/HomePage/banner_style.css" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/appsettings.json" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Controllers/ProductsContoller.cs" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Models/DataBaseData.cs" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/ProductPage/product.css" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/icons.css" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/popupBox.css" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/js/Layout/popup-box.js" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/scss/Layout/style.scss" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/js/Layout/icons.js" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/authorizeForm.css" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/js/Layout/button.js" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/shared.css" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Home/Index.cshtml" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/HomePage/products_carousel_style.css" />
       </list>
     </option>
   </component>
@@ -93,12 +137,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql&#10;sqlite" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3502052" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.3002736" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.OnlineWatchStore.DemoIdentity.Web: IIS Express">
+  <component name="RunManager" selected=".NET Launch Settings Profile.OnlineWatchStore.DemoIdentity.Web">
+    <configuration name="Publish OnlineWatchStoreSolution to IIS" type="DotNetMsBuildPublish" factoryName="Publish to IIS" temporary="true">
+      <riderPublish uuid_high="257773746870109850" uuid_low="-8253171054147188344" />
+      <method v="2" />
+    </configuration>
     <configuration name="OnlineWatchStore.DemoIdentity.Web" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/OnlineWatchStore.DemoIdentity.Web.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
@@ -249,6 +300,11 @@
         <option name="Build" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Publish to IIS.Publish OnlineWatchStoreSolution to IIS" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -283,6 +339,16 @@
       <workItem from="1613833996524" duration="1129000" />
       <workItem from="1613844390138" duration="6163000" />
       <workItem from="1613919590484" duration="2128000" />
+      <workItem from="1613922750283" duration="332000" />
+      <workItem from="1614075578085" duration="802000" />
+      <workItem from="1614165880154" duration="4738000" />
+      <workItem from="1614329743870" duration="4906000" />
+      <workItem from="1614691651544" duration="60000" />
+      <workItem from="1614691760726" duration="1178000" />
+      <workItem from="1614749486110" duration="1765000" />
+      <workItem from="1614756217451" duration="17239000" />
+      <workItem from="1615030211865" duration="143000" />
+      <workItem from="1615030452860" duration="494000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1605562441622</created>
@@ -319,7 +385,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607373084321</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Layout, HomePage changed">
+      <created>1613922925799</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613922925799</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Product page added, Home and Product controllers changed">
+      <created>1614075807528</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614075807528</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +426,9 @@
     <MESSAGE value="Added migrations and views" />
     <MESSAGE value="Added database sql server" />
     <MESSAGE value="Microsoft identity added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Microsoft identity added" />
+    <MESSAGE value="Layout, HomePage changed" />
+    <MESSAGE value="Product page added, Home and Product controllers changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Product page added, Home and Product controllers changed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607371201884">
@@ -361,45 +443,105 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="492" y="277" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.1536.864@0.0.1536.864" timestamp="1607295717550" />
-    <state width="1493" height="95" key="GridCell.Tab.0.bottom" timestamp="1613922689264">
+    <state width="1493" height="135" key="GridCell.Tab.0.bottom" timestamp="1614781032891">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="95" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1613922689264" />
-    <state width="1493" height="95" key="GridCell.Tab.0.center" timestamp="1613922689264">
+    <state width="1493" height="135" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1614781032891" />
+    <state width="1493" height="135" key="GridCell.Tab.0.center" timestamp="1614781032891">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="95" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1613922689264" />
-    <state width="1493" height="95" key="GridCell.Tab.0.left" timestamp="1613922689264">
+    <state width="1493" height="135" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1614781032891" />
+    <state width="1493" height="135" key="GridCell.Tab.0.left" timestamp="1614781032891">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="95" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1613922689264" />
-    <state width="1493" height="95" key="GridCell.Tab.0.right" timestamp="1613922689264">
+    <state width="1493" height="135" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1614781032891" />
+    <state width="1493" height="135" key="GridCell.Tab.0.right" timestamp="1614781032891">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="95" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1613922689264" />
+    <state width="1493" height="135" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1614781032891" />
+    <state width="1493" height="304" key="GridCell.Tab.1.bottom" timestamp="1614751267347">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1614751267347" />
+    <state width="1493" height="304" key="GridCell.Tab.1.center" timestamp="1614751267347">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1614751267347" />
+    <state width="1493" height="304" key="GridCell.Tab.1.left" timestamp="1614751267347">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1614751267347" />
+    <state width="1493" height="304" key="GridCell.Tab.1.right" timestamp="1614751267347">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1614751267347" />
+    <state width="1493" height="304" key="GridCell.Tab.2.bottom" timestamp="1614751267347">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1614751267347" />
+    <state width="1493" height="304" key="GridCell.Tab.2.center" timestamp="1614751267347">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1614751267347" />
+    <state width="1493" height="304" key="GridCell.Tab.2.left" timestamp="1614751267347">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1614751267347" />
+    <state width="1493" height="304" key="GridCell.Tab.2.right" timestamp="1614751267347">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1614751267347" />
+    <state width="1493" height="304" key="GridCell.Tab.3.bottom" timestamp="1614751267347">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.3.bottom/0.0.1536.864@0.0.1536.864" timestamp="1614751267347" />
+    <state width="1493" height="304" key="GridCell.Tab.3.center" timestamp="1614751267347">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.3.center/0.0.1536.864@0.0.1536.864" timestamp="1614751267347" />
+    <state width="1493" height="304" key="GridCell.Tab.3.left" timestamp="1614751267347">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.3.left/0.0.1536.864@0.0.1536.864" timestamp="1614751267347" />
+    <state width="1493" height="304" key="GridCell.Tab.3.right" timestamp="1614751267347">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.3.right/0.0.1536.864@0.0.1536.864" timestamp="1614751267347" />
+    <state width="1493" height="304" key="GridCell.Tab.4.bottom" timestamp="1614751267347">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.4.bottom/0.0.1536.864@0.0.1536.864" timestamp="1614751267347" />
+    <state width="1493" height="304" key="GridCell.Tab.4.center" timestamp="1614751267347">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.4.center/0.0.1536.864@0.0.1536.864" timestamp="1614751267347" />
+    <state width="1493" height="304" key="GridCell.Tab.4.left" timestamp="1614751267347">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.4.left/0.0.1536.864@0.0.1536.864" timestamp="1614751267347" />
+    <state width="1493" height="304" key="GridCell.Tab.4.right" timestamp="1614751267347">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="304" key="GridCell.Tab.4.right/0.0.1536.864@0.0.1536.864" timestamp="1614751267347" />
+    <state width="189" height="455" key="HiddenNamespacesPopup" timestamp="1614334838993">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="189" height="455" key="HiddenNamespacesPopup/0.0.1536.864@0.0.1536.864" timestamp="1614334838993" />
     <state x="361" y="164" key="Rider.ProjectTemplateDialog.Size" timestamp="1607332338621">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="164" key="Rider.ProjectTemplateDialog.Size/0.0.1536.864@0.0.1536.864" timestamp="1607332338621" />
-    <state x="479" y="110" key="RiderGenerateDialog" timestamp="1605563092514">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="479" y="110" key="RiderGenerateDialog/0.0.1536.864@0.0.1536.864" timestamp="1605563092514" />
     <state x="277" y="77" key="SettingsEditor" timestamp="1613844679144">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1613844679144" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1607373095081">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1614075817193">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1607373095081" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1614075817193" />
     <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607373190673">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1607373190673" />
-    <state x="431" y="181" key="search.everywhere.popup" timestamp="1605602528212">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="431" y="181" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1605602528212" />
   </component>
 </project>
