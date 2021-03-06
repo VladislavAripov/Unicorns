@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="~/css/Layout/header.css">
     <link rel="stylesheet" href="~/css/Layout/icons.css">
     <link rel="stylesheet" href="~/css/Layout/footer.css">
+    <link rel="stylesheet" href="~/css/Layout/authorizeForm.css">
+    <link rel="stylesheet" href="~/scss/Layout/style.scss">
     
     <title>WatchSore - @ViewData["Title"]</title>
 
@@ -16,6 +18,64 @@
     <title>Document</title>
 </head>
 <body>
+
+    <div class="form form--inactive">
+      <div class="form-toggle"></div>
+        <div class="form-panel one">
+          <div class="form-header">
+            <h1>Вход в аккаунт</h1>
+          </div>
+          <div class="form-content">
+            <form>
+              <div class="form-group">
+                <label for="username">Имя пользователя</label>
+                <input type="text" id="username" name="username" required="required"/>
+              </div>
+              <div class="form-group">
+                <label for="password">Пароль</label>
+                <input type="password" id="password" name="password" required="required"/>
+              </div>
+              <div class="form-group">
+                <label class="form-remember">
+                  <input type="checkbox"/>Запомнить меня
+                </label><a class="form-recovery" href="#">Забыли пароль?</a>
+              </div>
+              <div class="form-group">
+                <button type="submit">Вход</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="form-panel two">
+          <div class="form-header">
+            <h1>Регистрация</h1>
+          </div>
+          <div class="form-content">
+            <form>
+              <div class="form-group">
+                <label for="username">Имя пользователя</label>
+                <input type="text" id="username" name="username" required="required"/>
+              </div>
+              <div class="form-group">
+                <label for="password">Пароль</label>
+                <input type="password" id="password" name="password" required="required"/>
+              </div>
+              <div class="form-group">
+                <label for="cpassword">Подтверждение пароля</label>
+                <input type="password" id="cpassword" name="cpassword" required="required"/>
+              </div>
+              <div class="form-group">
+                <label for="email">Электронный адрес</label>
+                <input type="email" id="email" name="email" required="required"/>
+              </div>
+              <div class="form-group">
+                <button type="submit">Регистрация</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    </div>
+
     <div class="wrapper">
         <header class="navbar">
             <div class="navbar-item company-name">
@@ -47,11 +107,11 @@
             </div>
             <div class="navbar-item basket-login-logout">
                 <a id="basketIcon" class="icon" style="background-image: url(images/Layout/basket_ultra.ico);" href="#">
-                </a><a id="userIcon" class="icon" style="background-image: url(images/Layout/user_ultra.ico);" href="#">
+                </a><a id="userIcon" class="icon open" style="background-image: url(images/Layout/user_ultra.ico);" href="#">
                 </a>
             </div>
         </header>
-
+        
         <div class="content">
             @RenderBody()
         </div>
@@ -80,5 +140,7 @@ return false;
 });
 });
 </script>
+<script src="~/js/Layout/index.js"></script>
+<script src="~/js/Layout/button.js"></script>
 </body>
 </html>

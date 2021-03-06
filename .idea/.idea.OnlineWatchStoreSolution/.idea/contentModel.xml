@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\vlada\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\vlada\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_OnlineWatchStoreSolution.-1051690447.00" t="ExcludeRecursive" />
-    <e p="C:\Users\vlada\AppData\Roaming\JetBrains\Rider2020.2\consoles\db" t="IncludeRecursive" />
-    <e p="C:\Users\vlada\Desktop\Проект интернет-магазина часов\Rider\Рабочие проекты\OnlineWatchStoreSolution" t="IncludeFlat">
+    <e p="C:\Users\Adel_\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Adel_\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_OnlineWatchStoreSolution.243356241.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Adel_\RiderProjects\Unicorns" t="IncludeFlat">
       <e p="OnlineWatchStore.Data" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Migrations" t="Include">
@@ -46,6 +45,7 @@
           </e>
         </e>
         <e p="Models" t="Include">
+          <e p="DataBaseData.cs" t="Include" />
           <e p="ErrorViewModel.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -57,8 +57,8 @@
           </e>
         </e>
         <e p="OnlineWatchStore.DemoIdentity.Web.csproj" t="IncludeRecursive" />
-        <e p="OnlineWatchStoreDataDb" t="Include" />
-        <e p="OnlineWatchStoreUsersDb" t="Include" />
+        <e p="OnlineWatchStoreDataDb.db" t="Include" />
+        <e p="OnlineWatchStoreUsersDb.db" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
@@ -90,6 +90,7 @@
               <e p="products_carousel_style.css" t="Include" />
             </e>
             <e p="Layout" t="Include">
+              <e p="authorizeForm.css" t="Include" />
               <e p="footer.css" t="Include" />
               <e p="header.css" t="Include" />
               <e p="icons.css" t="Include" />
@@ -128,7 +129,13 @@
               <e p="collection_carousel.js" t="Include" />
             </e>
             <e p="Layout" t="Include">
+              <e p="button.js" t="Include" />
               <e p="icons.js" t="Include" />
+              <e p="index.js" t="Include" />
+            </e>
+            <e p="ProductPage" t="Include">
+              <e p="blockInfo.js" t="Include" />
+              <e p="images.js" t="Include" />
             </e>
             <e p="ProductPage" t="Include">
               <e p="blockInfo.js" t="Include" />
@@ -137,6 +144,12 @@
           </e>
           <e p="lib" t="Include">
             <e p="jquery-latest.js" t="Include" />
+          </e>
+          <e p="lib" t="Include">
+            <e p="jquery-latest.js" t="Include" />
+          </e>
+          <e p="scss" t="Include">
+            <e p="Layout" t="Include" />
           </e>
         </e>
       </e>

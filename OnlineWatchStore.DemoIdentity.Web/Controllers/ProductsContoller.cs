@@ -19,9 +19,9 @@ namespace OnlineWatchStore.DemoIdentity.Web.Controllers
             _context = context;
         }
 
-        public IActionResult Index(string productName)
+        public IActionResult Index(int productId)
         {
-            var product = _context.Products.FirstOrDefault(p => p.Name == productName);
+            var product = _context.Products.FirstOrDefault(p => p.Id == productId);
 
             return View(product);
         }

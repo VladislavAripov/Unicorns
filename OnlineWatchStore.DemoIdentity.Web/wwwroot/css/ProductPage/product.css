@@ -17,6 +17,7 @@
     margin-left: 5%;
     margin-top: 10px;
     background-color: rgb(134, 123, 123);
+    border-radius: 2px;
 }
 
 .productDescriptionWrapper .block:first-child {

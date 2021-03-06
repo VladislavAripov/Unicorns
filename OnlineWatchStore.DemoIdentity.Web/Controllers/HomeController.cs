@@ -25,9 +25,12 @@ namespace OnlineWatchStore.DemoIdentity.Web.Controllers
 
         public IActionResult Index()
         {
-            IQueryable<Product> classicProductsCollection = _context.Products.Where(p => p.Name == "");
+            List<Product> products = _context.Products.ToList();
+            List<Category> categories = _context.Categories.ToList();
             
-            return View();
+            DataBaseData viewData = new DataBaseData(products, categories);
+            
+            return View(viewData);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
