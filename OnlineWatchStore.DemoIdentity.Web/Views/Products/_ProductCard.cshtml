@@ -1,12 +1,41 @@
 ﻿@model OnlineWatchStore.Domain.Product
 
-<div>
-    <p>Product ID: @Model.Id</p>
-    <p>Product Category: @Model.Category</p>
-    <p>Product Description: @Model.Description</p>
-    <p>Product Price Rub: @Model.PriceRub</p>
-    <p>Product Price Usd: @Model.PriceUsd</p>
-    
-    <p>Product Image: </p>
-    <img src = @Model.ImageUrl alt = @Model.Name />
+<div class="flex-box">
+    <link rel="stylesheet" href="~/css/ProductPage/product.css">
+    <link rel="stylesheet" href="~/css/ProductPage/imagesStyle.css">
+    <div class="productDescriptionWrapper">
+        <div id="productAbout" class="productAbout block selectedBlock">
+            <div class="blockSubtitle">@Model.Name</div>
+            <div id="textBlockAbout" class="textBlockWrapper">
+                <div class="textBlock">@Model.Description</div>
+            </div>
+        </div>
+        <div id="productChar" class="productCharacteristics block">
+            <div class="blockSubtitle">Технические характеристики</div>
+            <div id="textBlockChar" class="hidenBlock textBlockWrapper">
+                <div class="textBlock">@Model.Description</div>
+            </div>
+        </div>
+        <div id="deliveryAbout" class="deliveryAbout block">
+            <div class="blockSubtitle">Доставка</div>
+            <div id="textBlockDelivery" class="hidenBlock textBlockWrapper">
+                <div class="textBlock">А здесь будут способы доставки</div>
+            </div>
+        </div>
+        <a href="#" class="buyButton block">
+            <div class="buyButtonText">Добавить в корзину</div>
+        </a>
+    </div>
+    <div class="productImagesWrapper">
+        <div id="main" class="mainImage" style="background-image: url(https://i1.sndcdn.com/artworks-000149768963-e46wh6-t500x500.jpg)">
+        </div>
+        <div class="otherImagesWrapper">
+            <div id="other1" class="otherImage selected" style="background-image: url(https://i1.sndcdn.com/artworks-000149768963-e46wh6-t500x500.jpg);"></div>
+            <div id="other2" class="otherImage" style="background-image: url(https://yandex.ru/images/_crpd/Q5ksr1214/47185bsiW/4SD0lf6GGcXK_kXStOJSJ9I-k-wL2ByMRuV06TVKl5mVeuTK4k732EV7KC-haO4k9K38rKs6Damx9vbQyl-0xvxg8Oy21iSw7r8d98Wevs83giME5iydbMZMZOkdQpvh9GPpYgYutn1sE1FK6FEjEdUdMHmCe_nxobe39Fqn_ZZdtTFxunoAQT4zwWYcwvYng9KnnD4kXaDqnCDhgXJPWHw3BfafEpLtlNclXmRpR01RVbz1RjdV9SnLs1yCM5W2-Yk9tbZWJDXGszmq9Bbm8z9aJyhO7AlISjAc0WVqx8T8t-U6m-Ju9RRnkcK8URdldX3U7SJHfX0B-59YnvtxStGFlf2G-kwpFr8t0hAecitrHnOYUth51DYgJLV5dgMsbCPVxu9qduHwr_GCvOkjqa05eF1u8xnNEWfPHNLH5Rr5BZVtJh4EbcqnxeKECuq_p2KX7NJIMaxeaFSFgeYLsFQvrSqzjp6BeDtZwsjRp1k5lVS1TneF8V2Dhxwa59F64SnRJTp6wO2yy3VuJG4ia3M2s6CC7IEogtDEMfUKXygQ760ms_aaXRDnPe50PRe5ud3QMYL76YFhO2OoFjuR7gnJHRmeZnDZji95Lmh-_vMjEqdA5kTdyLrMrGEBwhco7DtlOluiqvno--0WKKHzHYFt9OVCm50pnSfjCBIDwe7pPWX9bvoEwc5L5V7Qav53a5a33J4o3WQKYBSJcd6fwNif4aYT8qIJ7DeZxsyZ8yXd4Vhdrhe99T3D60weuyXOpUGltYIWyEGquy1mlHp2ayMy6_TyXO2w3thANUG60yD0j_XOc3LCdXgPXQ4svX9pdXHEpWaf6S0xA_NkAufZPg0dZQmeNrDt0sMp7hRmHlfzpneo8vB9UM4sBNXpsjugrJMJmmN-Oh00Y_WetBn_fQlBSBVG2zlxkSe3nEpXbW4Fiam55hasyZq3VXYcihb_EzoDRP7IgeyGnFDB-Q4c);"></div>
+            <div id="other3" class="otherImage" style="background-image: url('3birch_grove.png');"></div>
+            <div id="other4" class="otherImage" style="background-image: url(https://i1.sndcdn.com/avatars-000103022603-lfaelw-t500x500.jpg);"></div>
+        </div>
+    </div>
+    <script src="~/js/ProductPage/blockInfo.js"></script>
+    <script src="~/js/ProductPage/images.js"></script>
 </div>

@@ -17,30 +17,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6263d842-919b-472a-a01f-bf55c35557bc" name="Default Changelist" comment="Product page added, Home and Product controllers changed">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.OnlineWatchStoreSolution/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OnlineWatchStoreSolution/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.OnlineWatchStoreSolution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OnlineWatchStoreSolution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Controllers/HomeController.cs" afterDir="false" />
+    <list default="true" id="6263d842-919b-472a-a01f-bf55c35557bc" name="Default Changelist" comment="Home page controller changed, authorize form partial added">
       <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Controllers/ProductsContoller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Controllers/ProductsContoller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/OnlineWatchStore.DemoIdentity.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/OnlineWatchStore.DemoIdentity.Web.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/OnlineWatchStoreDataDb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/OnlineWatchStoreUsersDb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Home/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Products/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Products/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Products/_ProductCard.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Products/_ProductCard.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/HomePage/about_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/HomePage/about_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/HomePage/banner_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/HomePage/banner_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/HomePage/products_carousel_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/HomePage/products_carousel_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/icons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/shared.css" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/shared.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/js/HomePage/banner_script.js" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/js/HomePage/banner_script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/js/HomePage/collection_carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/js/HomePage/collection_carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/js/Layout/icons.js" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/js/Layout/icons.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -348,7 +328,7 @@
       <workItem from="1614749486110" duration="1765000" />
       <workItem from="1614756217451" duration="17239000" />
       <workItem from="1615030211865" duration="143000" />
-      <workItem from="1615030452860" duration="494000" />
+      <workItem from="1615030452860" duration="806000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1605562441622</created>
@@ -399,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614075807528</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Home page controller changed, authorize form partial added">
+      <created>1615030998243</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615030998243</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,7 +415,8 @@
     <MESSAGE value="Microsoft identity added" />
     <MESSAGE value="Layout, HomePage changed" />
     <MESSAGE value="Product page added, Home and Product controllers changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Product page added, Home and Product controllers changed" />
+    <MESSAGE value="Home page controller changed, authorize form partial added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home page controller changed, authorize form partial added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607371201884">
@@ -535,10 +523,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1613844679144" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1614075817193">
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1615031018713">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1614075817193" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1615031018713" />
     <state x="586" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607373190673">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
