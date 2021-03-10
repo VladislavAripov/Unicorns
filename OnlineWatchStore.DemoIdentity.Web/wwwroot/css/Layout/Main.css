@@ -1,0 +1,148 @@
+﻿html, body {
+    background-color: burlywood;
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    padding-bottom: 60px;
+}
+
+
+.centered {
+    text-align: center;
+}
+
+
+
+.navbar {
+    padding: .5rem 20px;
+}
+
+
+
+.carousel {
+    background-color: antiquewhite;
+}
+
+
+
+.content {
+    padding-left: 0;
+    padding-right: 0;
+    min-height: 100%;
+}
+
+
+
+
+#collections {
+    background-color: darkgray;
+}
+
+.collection-wrapper {
+    padding-bottom: 20px;
+}
+
+.collection-wrapper:first-child {
+    padding-top: 20px;
+}
+
+.collection-name {
+    padding: 15px 0;
+}
+
+.collection-name {
+    border-top: 1px solid rgb(254, 255, 196);
+}
+
+.collection-list {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.collection-product-item {
+    display: inline-block;
+    margin-right: 15px;
+    height: 330px;
+    width: 200px;
+    padding: 15px;
+    background-color: darkcyan;
+    border-radius: 3px;
+}
+
+.product-image {
+    display: flex;
+    height: 200px;
+    width: 170px;
+}
+
+.product-description {
+    height: 100px;
+    width: 170px;
+}
+
+
+
+
+
+
+
+#about {
+    background: url(https://www.mizpee.com/wp-content/uploads/2020/05/dmitry-nucky-thompson-ccncRDICVNk-unsplash.jpg) no-repeat center center;
+}
+
+.about-wrapper {
+    min-height: 600px;
+}
+
+.about-subtitle-wrapper {
+    padding: 30px 0;
+}
+
+.about-description-wrapper {
+    padding: 50px 30px;
+    height: 500px;
+}
+
+.yellow-block {
+    background-color: rgba(218, 165, 32, 0.8);
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.about-description-p {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+.height-auto {
+    height: auto;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+.footer {
+    margin-top: -60px;
+    height: 60px;
+}
+
+.color-as-header {
+    background-color: rgb(254, 255, 196);
+}
+
+.a-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 20px;
+}
+
+.a-icon:last-child {
+    margin-right: 0;
+}
