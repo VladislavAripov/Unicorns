@@ -1,41 +1,75 @@
 ﻿@model OnlineWatchStore.Domain.Product
 
-<div class="flex-box">
-    <link rel="stylesheet" href="~/css/ProductPage/product.css">
-    <link rel="stylesheet" href="~/css/ProductPage/imagesStyle.css">
-    <div class="productDescriptionWrapper">
-        <div id="productAbout" class="productAbout block selectedBlock">
-            <div class="blockSubtitle">@Model.Name</div>
-            <div id="textBlockAbout" class="textBlockWrapper">
-                <div class="textBlock">@Model.Description</div>
-            </div>
+
+<link rel="stylesheet" href="~/css/ProductPage/product.css">
+
+<div class="container">
+    <div class="row justify-content-around">
+        <div class="col-5 slider-wrapper">
+            <div id="carouselExampleControls" class="carousel border border-secondary border-3 slide item-responsive" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://avro-ra.ru/upload/iblock/b7a/b7aaff0e12b48c5b5f10064c17afce5f.jpg" class="img-fluid d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://www.brandfield.com/media/catalog/product/cache/image/265x/9df78eab33525d08d6e5fb8d27136e95/4/0/4053858414495.jpg" class="img-fluid d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://www.brandfield.com/media/catalog/product/cache/image/265x/9df78eab33525d08d6e5fb8d27136e95/4/0/4053858414495.jpg" class="img-fluid d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </div>
-        <div id="productChar" class="productCharacteristics block">
-            <div class="blockSubtitle">Технические характеристики</div>
-            <div id="textBlockChar" class="hidenBlock textBlockWrapper">
-                <div class="textBlock">@Model.Description</div>
+        <div class="col-4 info-container">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Описание
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      @Model.Description
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Характеристики
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Здесь будут какие-то характеристики товара
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      История
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Здесь будет какая-то интересная история, не обязательно о часах
+                    </div>
+                  </div>
+                </div>
             </div>
+            <div class="d-grid gap-2 margin-top-10">
+                <button class="btn btn-primary" type="button">@Model.PriceRub ₽</button>
+              </div>
         </div>
-        <div id="deliveryAbout" class="deliveryAbout block">
-            <div class="blockSubtitle">Доставка</div>
-            <div id="textBlockDelivery" class="hidenBlock textBlockWrapper">
-                <div class="textBlock">А здесь будут способы доставки</div>
-            </div>
-        </div>
-        <a href="#" class="buyButton block">
-            <div class="buyButtonText">Добавить в корзину</div>
-        </a>
     </div>
-    <div class="productImagesWrapper">
-        <div id="main" class="mainImage" style="background-image: url(https://i1.sndcdn.com/artworks-000149768963-e46wh6-t500x500.jpg)">
-        </div>
-        <div class="otherImagesWrapper">
-            <div id="other1" class="otherImage selected" style="background-image: url(https://i1.sndcdn.com/artworks-000149768963-e46wh6-t500x500.jpg);"></div>
-            <div id="other2" class="otherImage" style="background-image: url(https://yandex.ru/images/_crpd/Q5ksr1214/47185bsiW/4SD0lf6GGcXK_kXStOJSJ9I-k-wL2ByMRuV06TVKl5mVeuTK4k732EV7KC-haO4k9K38rKs6Damx9vbQyl-0xvxg8Oy21iSw7r8d98Wevs83giME5iydbMZMZOkdQpvh9GPpYgYutn1sE1FK6FEjEdUdMHmCe_nxobe39Fqn_ZZdtTFxunoAQT4zwWYcwvYng9KnnD4kXaDqnCDhgXJPWHw3BfafEpLtlNclXmRpR01RVbz1RjdV9SnLs1yCM5W2-Yk9tbZWJDXGszmq9Bbm8z9aJyhO7AlISjAc0WVqx8T8t-U6m-Ju9RRnkcK8URdldX3U7SJHfX0B-59YnvtxStGFlf2G-kwpFr8t0hAecitrHnOYUth51DYgJLV5dgMsbCPVxu9qduHwr_GCvOkjqa05eF1u8xnNEWfPHNLH5Rr5BZVtJh4EbcqnxeKECuq_p2KX7NJIMaxeaFSFgeYLsFQvrSqzjp6BeDtZwsjRp1k5lVS1TneF8V2Dhxwa59F64SnRJTp6wO2yy3VuJG4ia3M2s6CC7IEogtDEMfUKXygQ760ms_aaXRDnPe50PRe5ud3QMYL76YFhO2OoFjuR7gnJHRmeZnDZji95Lmh-_vMjEqdA5kTdyLrMrGEBwhco7DtlOluiqvno--0WKKHzHYFt9OVCm50pnSfjCBIDwe7pPWX9bvoEwc5L5V7Qav53a5a33J4o3WQKYBSJcd6fwNif4aYT8qIJ7DeZxsyZ8yXd4Vhdrhe99T3D60weuyXOpUGltYIWyEGquy1mlHp2ayMy6_TyXO2w3thANUG60yD0j_XOc3LCdXgPXQ4svX9pdXHEpWaf6S0xA_NkAufZPg0dZQmeNrDt0sMp7hRmHlfzpneo8vB9UM4sBNXpsjugrJMJmmN-Oh00Y_WetBn_fQlBSBVG2zlxkSe3nEpXbW4Fiam55hasyZq3VXYcihb_EzoDRP7IgeyGnFDB-Q4c);"></div>
-            <div id="other3" class="otherImage" style="background-image: url('3birch_grove.png');"></div>
-            <div id="other4" class="otherImage" style="background-image: url(https://i1.sndcdn.com/avatars-000103022603-lfaelw-t500x500.jpg);"></div>
-        </div>
-    </div>
-    <script src="~/js/ProductPage/blockInfo.js"></script>
-    <script src="~/js/ProductPage/images.js"></script>
 </div>

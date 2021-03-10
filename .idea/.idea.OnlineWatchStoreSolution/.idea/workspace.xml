@@ -17,11 +17,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6263d842-919b-472a-a01f-bf55c35557bc" name="Default Changelist" comment="Home page controller changed, authorize form partial added">
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Controllers/ProductsContoller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Controllers/ProductsContoller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Products/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Products/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Products/_ProductCard.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Products/_ProductCard.cshtml" afterDir="false" />
-    </list>
+    <list default="true" id="6263d842-919b-472a-a01f-bf55c35557bc" name="Default Changelist" comment="Home page controller changed, authorize form partial added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,27 +36,16 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Products/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Data/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/558EFF1A-6D86-468A-B5D3-8B990CD1FB1A/C/Controller.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/appsettings.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/vlada/Desktop/Разделение гита/Unicorns-main/OnlineWatchStore.DemoIdentity.Web/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/vlada/Desktop/Разделение гита/Unicorns-main/OnlineWatchStore.DemoIdentity.Web/Controllers/ProductsContoller.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/vlada/Desktop/Разделение гита/Unicorns-main/OnlineWatchStore.DemoIdentity.Web/Views/Products/_ProductCard.cshtml" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Products/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/A00560A4-02F1-4292-9257-D2BADD7D70DD/57/5faab130/System.Data.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/vlada/Desktop/Разделение гита/Unicorns-main/OnlineWatchStore.DemoIdentity.Web/Views/Products/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/OnlineWatchStore.Domain/Order.cs" />
-        <option value="$PROJECT_DIR$/OnlineWatchStore.Domain/Generic.cs" />
-        <option value="$PROJECT_DIR$/OnlineWatchStore.Data/Class1.cs" />
-        <option value="$PROJECT_DIR$/OnlineWatchStore.Web/Controllers/Products.cs" />
-        <option value="$PROJECT_DIR$/OnlineWatchStore.Domain/Product.cs" />
-        <option value="$PROJECT_DIR$/OnlineWatchStore.Domain/Category.cs" />
-        <option value="$PROJECT_DIR$/OnlineWatchStore.Data/MyAppContext.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.Web/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.Web/appsettings.json" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.Web/Startup.cs" />
@@ -93,18 +78,25 @@
         <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Controllers/ProductsContoller.cs" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Models/DataBaseData.cs" />
-        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/ProductPage/product.css" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/icons.css" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/popupBox.css" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/js/Layout/popup-box.js" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/scss/Layout/style.scss" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/js/Layout/icons.js" />
-        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/authorizeForm.css" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/js/Layout/button.js" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/shared.css" />
-        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/HomePage/products_carousel_style.css" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Home/Index.cshtml" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Layout/Main.css" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Products/_ProductCard.cshtml" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/ProductPage/product.css" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Controllers/CartController.cs" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/js/Cart/closeButton.js" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/wwwroot/css/Cart/cart.css" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Cart/Index.cshtml" />
+        <option value="$PROJECT_DIR$/OnlineWatchStore.DemoIdentity.Web/Views/Shared/_LoginPartial.cshtml" />
       </list>
     </option>
   </component>
@@ -329,6 +321,7 @@
       <workItem from="1614756217451" duration="17239000" />
       <workItem from="1615030211865" duration="143000" />
       <workItem from="1615030452860" duration="806000" />
+      <workItem from="1615353887457" duration="13982000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1605562441622</created>
@@ -431,22 +424,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="492" y="277" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.1536.864@0.0.1536.864" timestamp="1607295717550" />
-    <state width="1493" height="135" key="GridCell.Tab.0.bottom" timestamp="1614781032891">
+    <state width="1493" height="178" key="GridCell.Tab.0.bottom" timestamp="1615376849046">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="135" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1614781032891" />
-    <state width="1493" height="135" key="GridCell.Tab.0.center" timestamp="1614781032891">
+    <state width="1493" height="178" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1615376849046" />
+    <state width="1493" height="178" key="GridCell.Tab.0.center" timestamp="1615376849046">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="135" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1614781032891" />
-    <state width="1493" height="135" key="GridCell.Tab.0.left" timestamp="1614781032891">
+    <state width="1493" height="178" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1615376849046" />
+    <state width="1493" height="178" key="GridCell.Tab.0.left" timestamp="1615376849046">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="135" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1614781032891" />
-    <state width="1493" height="135" key="GridCell.Tab.0.right" timestamp="1614781032891">
+    <state width="1493" height="178" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1615376849046" />
+    <state width="1493" height="178" key="GridCell.Tab.0.right" timestamp="1615376849046">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="135" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1614781032891" />
+    <state width="1493" height="178" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1615376849046" />
     <state width="1493" height="304" key="GridCell.Tab.1.bottom" timestamp="1614751267347">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

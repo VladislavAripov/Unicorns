@@ -26,7 +26,6 @@
     <ItemGroup>
       <Folder Include="wwwroot\css\HomePage" />
       <Folder Include="wwwroot\css\ProductPage" />
-      <Folder Include="wwwroot\scss\Layout" />
     </ItemGroup>
 
     <ItemGroup>

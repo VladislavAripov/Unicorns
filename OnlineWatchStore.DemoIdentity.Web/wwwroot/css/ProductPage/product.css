@@ -1,80 +1,28 @@
-.flex-box {
-    display: flex;
+.slider-wrapper {
+    padding: 50px 10px 10px 10px;
 }
 
-.productDescriptionWrapper {
-    width: 47%;
-    height: 500px;
-    padding-top: 80px;
-    color: rgb(254, 255, 196);
-    font-size: 20px;
-    margin-left: 8%;
+.info-container {
+    padding: 70px 10px 10px 10px;
 }
 
-.productDescriptionWrapper .block {
-    width: 90%;
-    height: 10%;
-    margin-left: 5%;
+.accordion {
+    background-color: antiquewhite;
+}
+
+.margin-top-10 {
     margin-top: 10px;
-    background-color: rgb(134, 123, 123);
-    border-radius: 2px;
 }
 
-.productDescriptionWrapper .block:first-child {
-    margin-top: 0px;
+.carousel {
+    height: 526px;
 }
 
-.productDescriptionWrapper .block:last-child {
-    margin-top: 20px;
-    background-color:rgb(119, 107, 107);
+.carousel-inner {
+    height: 100%;
 }
 
-.block:hover { cursor: pointer; }
-
-.blockSubtitle {
-    padding-left: 20px;
-    padding-top: 12px;
-}
-
-.productDescriptionWrapper .selectedBlock {
-    height: 60%;
-    background-color: rgb(80, 71, 71);
-}
-
-.hidenBlock {
-    display: none;
-}
-
-.textBlockWrapper {
-    width: 94%;
-    margin-left: 3%;
-    margin-top: 1%;
-    height: 80%;
-    background-color: white;
-    border: gray 1.5px solid;
-}
-
-.textBlock {
-    text-align: justify;
-    font-size: 90%;
+.product-images {
+    background-color: azure;
     padding: 10px;
-    color: gray;
-    display: inherit;
-    height: 90%;
-    overflow: auto;
-}
-
-.buyButton {
-    display: block;
-    text-decoration: none;
-}
-
-.buyButton:hover {
-    background-color: rgb(80, 71, 71);
-}
-
-.buyButtonText {
-    color: rgb(254, 255, 196);
-    padding-top: 12px;
-    text-align: center;
 }
