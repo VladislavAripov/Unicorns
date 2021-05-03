@@ -1,0 +1,13 @@
+﻿div.hidden {
+    display: none;
+}
+
+#delivery:checked ~ #deliveryContent,
+#pickUp:checked ~ #pickUpContent{
+    display: block;
+}
+
+#cash:checked ~ #cashPayment,
+#card:checked ~ #cardPayment{
+    display: block;
+}

@@ -1,0 +1,156 @@
+﻿<!--Представление должно принимать данные из корзины-->
+
+@{
+    ViewData["Title"] = "Order";
+}
+
+<link rel="stylesheet" href="~/css/Order/Order.css">
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <form>
+                <h2>Личные данные</h2>
+                <div class="row">
+                    <div class="col">
+                        <label for="name" class="col-form-label pt-0">Имя</label>
+                        <input type="text" id="name" class="form-control" placeholder="Имя" aria-label="First name" required>
+                    </div>
+                    <div class="col">
+                        <label for="surname" class="col-form-label pt-0">Фамилия</label>
+                        <input type="text" id="surname" class="form-control" placeholder="Фамилия" aria-label="Last name" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <label for="phone number" class="col-form-label">Номер телефона</label>
+                        <input type="text" id="phone number" class="form-control" placeholder="Номер телефона" aria-label="Phone number" required>
+                    </div>
+                </div>
+
+                <h2>Место получения</h2>
+
+                <input type="radio" class="btn-check" name="delivery" id="delivery" autocomplete="off" checked>
+                <label class="btn btn-outline-warning" for="delivery">Доставка</label>
+
+                <input type="radio" class="btn-check" name="delivery" id="pickUp" autocomplete="off">
+                <label class="btn btn-outline-secondary" for="pickUp">Самовывоз</label>
+                
+                <div class="hidden" id="deliveryContent">
+                    <div class="row mb-2">
+                        <div class="col">
+                            <label for="city" class="form-label">Город</label>
+                            <input type="text" class="form-control" id="city" placeholder="Город" required>
+                        </div>
+                        <div class="col">
+                            <label for="street" class="form-label">Улица</label>
+                            <input type="text" class="form-control" id="street" placeholder="Улица" required>
+                        </div>
+                        <div class="col-3">
+                            <label for="house number" class="form-label">Дом</label>
+                            <input type="text" class="form-control" id="house number" placeholder="Номер" required>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col">
+                            <label for="entrance" class="form-label">Подъезд</label>
+                            <input type="text" class="form-control" id="entrance" placeholder="Подъезд">
+                        </div>
+                        <div class="col">
+                            <label for="floor" class="form-label">Этаж</label>
+                            <input type="text" class="form-control" id="floor" placeholder="Этаж">
+                        </div>
+                        <div class="col">
+                            <label for="flat" class="form-label">Квартира</label>
+                            <input type="text" class="form-control" id="flat" placeholder="Квартира">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="date" class="form-label">Дата</label>
+                            <input type="date" class="form-control" id="date" placeholder="Дата" required>
+                        </div>
+
+                        <div class="col">
+                            <label for="time" class="form-label">Время</label>
+                            <input type="time" class="form-control" id="time" placeholder="Время" required>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hidden" id="pickUpContent">
+                    <div class="row mb-2">
+                        <div class="col-6">
+                            <label for="city selector" class="form-label">Город</label>
+                            <select id="city selector" class="form-select"  aria-label="Default select example" required>
+                                <option value="" selected>Выберите город</option>
+                                <option value="1">Казань</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-8">
+                            <label for="issue place" class="form-label">Пункт выдачи</label>
+                            <select id="issue place" class="form-select" aria-label="Default select example" required>
+                                <option value="" selected>Выберите пункт выдачи</option>
+                                <option value="1">Ул. Какая-то, д. 1</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Способ оплаты</h2>
+                <input type="radio" class="btn-check" name="payment" id="cash" autocomplete="off" checked>
+                <label class="btn btn-outline-success" for="cash">Наличные</label>
+
+                <input type="radio" class="btn-check" name="payment" id="card" autocomplete="off">
+                <label class="btn btn-outline-primary" for="card">Банковская карта</label>
+                
+                <div class="hidden" id="cardPayment">
+                    <div class="row">
+                        <div class="col-4">
+                            <input class="btn btn-primary" type="button" value="Подтвердить карту">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hidden" id="cashPayment">
+                    <h3>Выбрана оплата наличными</h3>
+                </div>
+                
+                <div class="row">
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-6">
+            <h2>Товары в корзине</h2>
+            <div class="row">
+                <div class="col">
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Cras justo odio
+                            <span class="badge bg-primary rounded-pill">1</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Dapibus ac facilisis in
+                            <span class="badge bg-primary rounded-pill">2</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Morbi leo risus
+                            <span class="badge bg-primary rounded-pill">1</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
