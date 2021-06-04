@@ -17,6 +17,17 @@
             PriceUsd = priceUsd;
             ImageUrl = imageUrl;
         }
+        
+        public Product(int id, string name, string description, decimal priceRub, decimal priceUsd, string imageUrl, int categoryId)
+        {
+            Id = id;
+            Name = name;
+            Description = description;
+            PriceRub = priceRub;
+            PriceUsd = priceUsd;
+            ImageUrl = imageUrl;
+            CategoryId = categoryId;
+        }
 
         public int Id { get; protected set; }
 
@@ -30,7 +41,7 @@
 
         public string ImageUrl { get; protected set; }
         
-        public virtual Category Category { get; protected set; }
+        public virtual int CategoryId { get; protected set; }
 
         public void UpdatePrice(decimal priceRub)
         {

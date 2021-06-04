@@ -14,5 +14,12 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/OnlineWatchStoreUsersDB</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="OnlineWatchStoreDataDb" uuid="3d15a6f9-b034-40ff-81db-ce008eef03cd">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\vlada\Desktop\Вот сейчас работаю здесь\OnlineWatchStore.DemoIdentity.Web\OnlineWatchStoreDataDb.db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

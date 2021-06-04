@@ -15,7 +15,7 @@
       </tr>
       </thead>
       <tbody>
-      @for (int i = 0; i < 100; i++)
+      @for (int i = 0; i < 5; i++)
       {
         <tr class="to-close">
           <td>Watch's name</td>
@@ -33,7 +33,9 @@
   </div>
   <div class="row button-wrapper justify-content-end">
     <div class="col-2">
-      <button type="button" class="btn btn-secondary margin-top-10 btn-lg">Оформить заказ</button>
+      <form>
+        <button type="submit" asp-controller="Order" asp-action="Index" class="btn btn-primary">Оформить заказ</button>
+      </form>
     </div>
   </div>
 </div>

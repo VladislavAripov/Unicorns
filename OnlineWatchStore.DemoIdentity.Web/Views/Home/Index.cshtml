@@ -56,11 +56,11 @@
         
         
         <div class="row collection-wrapper centered g-0 row-cols-1 row-cols-md-3 g-4">
-            @foreach (var product in Model.Products.Where(p => p.Category.Id == category.Id))
+            @foreach (var product in Model.Products.Where(p => p.CategoryId == category.Id))
             {
                 <div class="col">
                     <div class="card">
-                        <img src="https://pristor.ru/wp-content/uploads/2019/04/%D0%9A%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8-%D0%B1%D0%B5%D0%BB%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%B5%D1%82%D0%B5%D0%B9-%D0%BD%D0%B0-%D0%B1%D0%B5%D0%BB%D0%BE%D0%BC-%D1%84%D0%BE%D0%BD%D0%B5-%D0%BF%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B0-20-%D1%84%D0%BE%D1%82%D0%BE-5.png" class="card-img-top" alt="product image">
+                        <img src="@product.ImageUrl" class="card-img-top" alt="product image">
                         <div class="card-body">
                             <h5 class="card-title">
                                 <a asp-area="" asp-controller="Products" asp-action="Index" asp-route-productId="@product.Id">@product.Name</a>

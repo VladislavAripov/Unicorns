@@ -1,0 +1,62 @@
+﻿@model List<Product>
+
+
+@{
+    ViewData["Title"] = "Products";
+}
+
+<style type='text/css'>
+    td, th {
+      border: solid 1px black;
+    }
+</style>
+
+<div>
+    <a asp-controller="Admin" asp-action="Categories">Перейти к списку категорий</a>
+    <table>
+        <tr>
+            <th>Id</th><th>Name</th><th>Description</th><th>PriceRub</th><th>PriceUsd</th><th>ImageUrl</th><th>CategoriId</th>
+        </tr> <!--ряд с ячейками заголовков-->
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Name</td>
+                <td>@product.Description</td>
+                <td>@product.PriceRub</td>
+                <td>@product.PriceUsd</td>
+                <td>@product.ImageUrl</td>
+                <td>@product.CategoryId</td>
+            </tr>
+            <!--ряд с ячейками тела таблицы-->
+        }
+        <form method="post">
+            <tr>
+                <td>
+                    <input type="number" disabled name="id">
+                </td>
+                <td>
+                    <input type="text" name="name">
+                </td>
+                <td>
+                    <input type="text" name="description">
+                </td>
+                <td>
+                    <input type="text" name="priceRub">
+                </td>
+                <td>
+                    <input type="text" name="priceUsd">
+                </td>
+                <td>
+                    <input type="text" name="imageUrl">
+                </td>
+                <td>
+                    <input type="number" name="categoryId">
+                </td>
+                <td>
+                    <button type="submit">Создать</button>
+                </td>
+            </tr>
+        </form>
+    </table>
+</div>

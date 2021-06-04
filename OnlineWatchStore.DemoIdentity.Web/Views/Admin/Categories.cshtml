@@ -1,0 +1,42 @@
+﻿@model List<Category>
+
+
+@{
+    ViewData["Title"] = "Categories";
+}
+
+<style type='text/css'>
+    td, th {
+      border: solid 1px black;
+    }
+</style>
+
+<div>
+    <a asp-controller="Admin" asp-action="Products">Перейти к списку продуктов</a>
+    <table>
+        <tr>
+            <th>Id</th><th>Name</th>
+        </tr> <!--ряд с ячейками заголовков-->
+        @foreach (var category in Model)
+        {
+            <tr>
+                <td>@category.Id</td>
+                <td>@category.Name</td>
+            </tr>
+            <!--ряд с ячейками тела таблицы-->
+        }
+        <form method="post">
+            <tr>
+                <td>
+                    <input type="number" disabled name="id">
+                </td>
+                <td>
+                    <input type="text" name="name">
+                </td>
+                <td>
+                    <button type="submit">Создать</button>
+                </td>
+            </tr>
+        </form>
+    </table>
+</div>

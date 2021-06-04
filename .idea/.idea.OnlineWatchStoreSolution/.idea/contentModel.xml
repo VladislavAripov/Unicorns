@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Adel_\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Adel_\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_OnlineWatchStoreSolution.1855732843.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Adel_\OneDrive\Рабочий стол\Новая папка" t="IncludeFlat">
+    <e p="C:\Users\Adel_\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_OnlineWatchStoreSolution.-1683959960.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Adel_\OneDrive\Рабочий стол\Unicorns" t="IncludeFlat">
       <e p="OnlineWatchStore.Data" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Migrations" t="Include">
-          <e p="20201124103047_Initial.cs" t="Include" />
-          <e p="20201124103047_Initial.Designer.cs" t="Include" />
-          <e p="MyAppContextModelSnapshot.cs" t="Include" />
-        </e>
         <e p="MyAppContext.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -33,19 +28,21 @@
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="AccountController.cs" t="Include" />
+          <e p="AdminController.cs" t="Include" />
           <e p="CartController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
+          <e p="OrderController.cs" t="Include" />
           <e p="ProductsContoller.cs" t="Include" />
         </e>
-        <e p="Data" t="Include">
-          <e p="ApplicationDbContext.cs" t="Include" />
-          <e p="Migrations" t="Include">
-            <e p="00000000000000_CreateIdentitySchema.cs" t="Include" />
-            <e p="00000000000000_CreateIdentitySchema.Designer.cs" t="Include" />
-            <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
-          </e>
-        </e>
         <e p="Models" t="Include">
+          <e p="Authorization" t="Include">
+            <e p="ApplicationContext.cs" t="Include" />
+            <e p="LoginModel.cs" t="Include" />
+            <e p="RegisterModel.cs" t="Include" />
+            <e p="Role.cs" t="Include" />
+            <e p="User.cs" t="Include" />
+          </e>
           <e p="DataBaseData.cs" t="Include" />
           <e p="ErrorViewModel.cs" t="Include" />
         </e>
@@ -68,12 +65,24 @@
         <e p="Views" t="Include">
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Account" t="Include">
+            <e p="Login.cshtml" t="Include" />
+            <e p="Register.cshtml" t="Include" />
+          </e>
+          <e p="Admin" t="Include">
+            <e p="Categories.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+            <e p="Products.cshtml" t="Include" />
+          </e>
           <e p="Cart" t="Include">
             <e p="Index.cshtml" t="Include" />
           </e>
           <e p="Home" t="Include">
             <e p="Index.cshtml" t="Include" />
             <e p="Privacy.cshtml" t="Include" />
+          </e>
+          <e p="Order" t="Include">
+            <e p="Index.cshtml" t="Include" />
           </e>
           <e p="Products" t="Include">
             <e p="_EmptyProductCard.cshtml" t="Include" />
@@ -104,6 +113,9 @@
               <e p="icons.css" t="Include" />
               <e p="Main.css" t="Include" />
               <e p="shared.css" t="Include" />
+            </e>
+            <e p="Order" t="Include">
+              <e p="Order.css" t="Include" />
             </e>
             <e p="ProductPage" t="Include">
               <e p="imagesStyle.css" t="Include" />
@@ -144,6 +156,9 @@
               <e p="button.js" t="Include" />
               <e p="icons.js" t="Include" />
               <e p="index.js" t="Include" />
+            </e>
+            <e p="Order" t="Include">
+              <e p="DeliveryOrPickUp.js" t="Include" />
             </e>
             <e p="ProductPage" t="Include">
               <e p="blockInfo.js" t="Include" />

@@ -1,20 +1,13 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
-using OnlineWatchStore.DemoIdentity.Web.Data;
+using OnlineWatchStore.DemoIdentity.Web.Models.Authorization;
 using OnlineWatchStore.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.EntityFrameworkCore.Sqlite;
 
 namespace OnlineWatchStore.DemoIdentity.Web
 {
@@ -30,12 +23,20 @@ namespace OnlineWatchStore.DemoIdentity.Web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApplicationDbContext>(options => 
+            services.AddDbContext<ApplicationContext>(options => 
                 options.UseSqlite(Configuration.GetConnectionString("UsersDataConnection")));
             services.AddDbContext<MyAppContext>(options => 
                 options.UseSqlite(Configuration.GetConnectionString("ProductsDataConnection")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+                .AddEntityFrameworkStores<ApplicationContext>();
+            
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options =>
+                {
+                    options.LoginPath = new Microsoft.AspNetCore.Http.PathString("/Account/Login");
+                    options.AccessDeniedPath = new Microsoft.AspNetCore.Http.PathString("/Account/Login");
+                });
+            
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
